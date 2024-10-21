@@ -307,9 +307,11 @@ margin-top: 0px;
 #main-menu ul li a:focus{
 	color: #525fe1;
 }
+/* MMD ESi start */
 #navigation .header-btn {
-	padding-right:20px;
+	padding-left:20px;
 }
+/* MMD ESi end */
 
 
 
@@ -404,8 +406,8 @@ margin-top: 0px;
 
 	#sm_menu_ham {
 		display: block;
-		top: 40px;
-		right: 11%;
+		top: 35px;
+		right: 89%;
 		position: absolute;
 	}
 	.sidebar{
@@ -2751,3 +2753,10 @@ font-weight: 700;
 * .END SECTION TOP DESIGN
 * ----------------------------------------------------------------------------------------
 */
+
+
+/* MMD ESi start */
+.logo-pic {
+	height: 100%;
+}
+/* MMD ESi start */
