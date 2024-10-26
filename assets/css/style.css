@@ -707,13 +707,13 @@ color: #2D36BB;
 }
 .single-counter span {
 	width: 50px;
-	float: left;
+	float: right;
 	height: 50px;
 	line-height: 50px;
 	border-radius: 30px;
 	font-size: 20px;
 	text-align: center;
-	margin-right: 15px;
+	margin-left: 15px;
 }
 .single-counter h2 {
 	overflow: hidden;
