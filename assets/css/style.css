@@ -817,20 +817,20 @@ margin-left:10px;
 	box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 	position: absolute;
 	top: 45%;
-	right: 0%;
+	left: 0%;
 	/* left: 70%; */
 }	
 .home_ps2 span {
 color: #2D36BB;
 	background: #ECEDFF;
 	width: 50px;
-	float: left;
+	float: right;
 	height: 50px;
 	line-height: 50px;
 	border-radius: 30px;
 	font-size: 20px;
 	text-align: center;
-	margin-right: 15px;
+	margin-left: 15px;
 }
 .home_ps2 h2{font-weight:500;}
 /*START CATEGORY LIST*/
