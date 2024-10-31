@@ -661,7 +661,7 @@ border: 1px solid #525fe1!important;
 	right: 70%;
 }	
 @media only screen and (max-width:480px){
-.home_ps {left: 35%;}
+.home_ps {right: 35%;}
 }
 .home_ps span {
 color: #2D36BB;
@@ -894,13 +894,12 @@ color: #2D36BB;
 }
 .single_c_img span {
 	position: absolute;
-	bottom: 60%;
-	right: -2%;
+	bottom: 1rem;
+	right: 1rem;
 	background: #525fe1;
 	color: #fff;
 	padding: 2px 10px;
 	border-radius: 5px;
-	transform: rotate(-90deg);
 	transition: 0.3s;
 }
 .single_course:hover .single_c_img span{background: #f26b65;} 
@@ -937,7 +936,7 @@ color: #2D36BB;
 	float: left;
 	margin-top:70px;
 }
-@media only screen and (max-width:480px){
+@media only screen and (max-width:576px){
 .cour_btn {
 	float: none;
 	margin-top:0px;
@@ -1838,7 +1837,7 @@ margin-right: 5px;
 }
 .testimonial_content p {
 	overflow: hidden;
-	margin-top: 15px;
+	margin-top: 25px;
 	font-size: 24px;
 	line-height: 34px;
 }
@@ -1849,8 +1848,8 @@ margin-right: 5px;
 	border-radius: 5px;
 }
 .testi_pic_title img {
-	float: left;
-	margin-right: 15px;
+	float: right;
+	margin-left: 15px;
 	border-radius: 100px;
 	border: 5px solid #fff;
 }
