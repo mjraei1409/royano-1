@@ -546,9 +546,11 @@ border: 1px solid #525fe1!important;
 .hero-text-img img{position:relative;}
 @media only screen and (max-width:960px) { 
 .hero-text-img img{display:none;}
+.home_ps {display: none;}
 }
 @media only screen and (max-width:480px) { 
 .hero-text-img img{display:block;width:80%;}
+.home_ps {display: block;}
 }
 /*HOME TWO BANNER CSS*/
 .hero-text2{position:relative;}
@@ -1946,6 +1948,9 @@ display:block;
 	width: 100%;
 }
 .content_box{padding: 35px;}
+@media only screen and (max-width:992px) {
+	.content_box a {width: 80%; padding: 12px 8px;}
+}
 .single_blog h2 {
 	line-height: 32px;
 	font-size: 20px;
@@ -2802,6 +2807,11 @@ border: 1px solid #525fe1!important;
 	color:#fff;
 	background:#f26b65;
 }
+@media only screen and (max-width:1400px) {
+	.footer_si {width: 60%;}
+	.footer_sb {width: 40%;}
+}
+
 
 .footer-icon {
 	width: 50%;
